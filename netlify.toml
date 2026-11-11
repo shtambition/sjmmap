@@ -1,0 +1,25 @@
+# Netlify 部署配置：纯静态站点，仓库根目录即发布目录，无需构建
+[build]
+  publish = "."
+  command = ""
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# 单页应用：所有路径回退到 index.html（本应用实际只有一个页面，保险起见加上）
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# 静态资源缓存策略
+[[headers]]
+  for = "/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"

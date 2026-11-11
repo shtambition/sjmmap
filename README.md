@@ -17,6 +17,15 @@
 
 直接用浏览器打开 `index.html`，或访问在线部署地址。
 
-## 部署
+## 部署到 Netlify（从 GitHub）
 
-纯静态单文件，可直接部署到 Netlify / GitHub Pages / 任意静态托管。
+仓库已含 `netlify.toml`（发布目录 = 根目录，无需构建命令），连接后开箱即用：
+
+1. 打开 [app.netlify.com](https://app.netlify.com)，登录后进入 **Sites → Add new site → Import an existing project**；
+2. 选择 **Deploy with GitHub**，授权并选中本仓库 `sjmmap`；
+3. 部署设置无需改动（构建命令留空、发布目录 `.` 已由 `netlify.toml` 指定），直接点 **Deploy**；
+4. 完成后得到 `https://<随机名>.netlify.app`，可在 Site settings → Change site name 改名；
+5. 之后每次 `git push` 到 `main`，Netlify 会自动重新部署。
+
+也可使用 Netlify CLI：`npx netlify deploy --prod --dir .`
+
