@@ -1,0 +1,976 @@
+{
+  "nodes": [
+    {
+      "id": "node_0",
+      "type": "custom",
+      "position": {
+        "x": 126.48888970380563,
+        "y": 280.6248659246041
+      },
+      "data": {
+        "taskId": "task0",
+        "taskName": "Unigene_Analysis_split_fa_{contractid}",
+        "memThread": "1&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "dragging": false,
+      "positionAbsolute": {
+        "x": 126.48888970380563,
+        "y": 280.6248659246041
+      }
+    },
+    {
+      "id": "node_1",
+      "type": "custom",
+      "position": {
+        "x": 128.39307969261307,
+        "y": 654.742662565606
+      },
+      "data": {
+        "taskId": "task1",
+        "taskName": "Unigene_Analysis_HMM_fegenie_{split}_{contractid}",
+        "memThread": "10&5",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 128.39307969261307,
+        "y": 654.742662565606
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_2",
+      "type": "custom",
+      "position": {
+        "x": 128.75720931356307,
+        "y": 1046.6513268608976
+      },
+      "data": {
+        "taskId": "task2",
+        "taskName": "Unigene_Analysis_combine_HMM_fegenie_{contractid}",
+        "memThread": "1&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 128.75720931356307,
+        "y": 1046.6513268608976
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_3",
+      "type": "custom",
+      "position": {
+        "x": 130.4745359378415,
+        "y": 1426.7568104286927
+      },
+      "data": {
+        "taskId": "task3",
+        "taskName": "Unigene_Analysis_Calculate_abundance_{contractid}",
+        "memThread": "10&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 130.4745359378415,
+        "y": 1426.7568104286927
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_4",
+      "type": "custom",
+      "position": {
+        "x": -611.2222408598941,
+        "y": 1892.0311050340988
+      },
+      "data": {
+        "taskId": "task4",
+        "taskName": "Basic-visualization-barplot_{contractid}",
+        "memThread": "5&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -611.2222408598941,
+        "y": 1892.0311050340988
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_5",
+      "type": "custom",
+      "position": {
+        "x": -296.83861967462667,
+        "y": 2248.345875325997
+      },
+      "data": {
+        "taskId": "task5",
+        "taskName": "Basic-visualization-circos_{contractid}",
+        "memThread": "10&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -296.83861967462667,
+        "y": 2248.345875325997
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_6",
+      "type": "custom",
+      "position": {
+        "x": 53.746462168144035,
+        "y": 1895.4732042755127
+      },
+      "data": {
+        "taskId": "task6",
+        "taskName": "Basic-visualization-heatmap_{contractid}",
+        "memThread": "10&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 53.746462168144035,
+        "y": 1895.4732042755127
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_7",
+      "type": "custom",
+      "position": {
+        "x": 359.6563945432025,
+        "y": 2043.0489545701466
+      },
+      "data": {
+        "taskId": "task7",
+        "taskName": "Basic-visualization-venn-{analysis-type}_{contractid}",
+        "memThread": "10&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 359.6563945432025,
+        "y": 2043.0489545701466
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_8",
+      "type": "custom",
+      "position": {
+        "x": 835.9799199960971,
+        "y": 1878.560905447723
+      },
+      "data": {
+        "taskId": "task8",
+        "taskName": "Alpha-diversity-index_{contractid}",
+        "memThread": "5&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 835.9799199960971,
+        "y": 1878.560905447723
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_9",
+      "type": "custom",
+      "position": {
+        "x": 836.0429457739742,
+        "y": 2245.96844093605
+      },
+      "data": {
+        "taskId": "task9",
+        "taskName": "Alpha-diversity-stat-{vs-type}_{analysis-type}_{contractid}",
+        "memThread": "5&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 836.0429457739742,
+        "y": 2245.96844093605
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_10",
+      "type": "custom",
+      "position": {
+        "x": 1809.4664338207003,
+        "y": 1878.5209320244164
+      },
+      "data": {
+        "taskId": "task10",
+        "taskName": "Beta-distance_{contractid}",
+        "memThread": "5&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1809.4664338207003,
+        "y": 1878.5209320244164
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_11",
+      "type": "custom",
+      "position": {
+        "x": 1810.6710934454943,
+        "y": 2242.7491668755383
+      },
+      "data": {
+        "taskId": "task11",
+        "taskName": "Beta-distance-PCoA_{contractid}",
+        "memThread": "10&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1810.6710934454943,
+        "y": 2242.7491668755383
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_12",
+      "type": "custom",
+      "position": {
+        "x": 1328.7833492164584,
+        "y": 2246.024568646825
+      },
+      "data": {
+        "taskId": "task12",
+        "taskName": "Beta-distance-PCA_{contractid}",
+        "memThread": "10&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1328.7833492164584,
+        "y": 2246.024568646825
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_13",
+      "type": "custom",
+      "position": {
+        "x": 2293.423251918694,
+        "y": 2238.5980759278164
+      },
+      "data": {
+        "taskId": "task13",
+        "taskName": "Beta-distance-NMDS_{contractid}",
+        "memThread": "10&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2293.423251918694,
+        "y": 2238.5980759278164
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_14",
+      "type": "custom",
+      "position": {
+        "x": 2799.2230680529756,
+        "y": 1876.3305259743788
+      },
+      "data": {
+        "taskId": "task14",
+        "taskName": "Statistics-lefse-{analysis-type}_{contractid}",
+        "memThread": "10&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2799.2230680529756,
+        "y": 1876.3305259743788
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_15",
+      "type": "custom",
+      "position": {
+        "x": -1755.3894456050452,
+        "y": 1882.798456699943
+      },
+      "data": {
+        "taskId": "task15",
+        "taskName": "Joint-tax_top10_{contractid}",
+        "memThread": "20&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1755.3894456050452,
+        "y": 1882.798456699943
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_16",
+      "type": "custom",
+      "position": {
+        "x": -1195.889302634619,
+        "y": 1887.584335583765
+      },
+      "data": {
+        "taskId": "task16",
+        "taskName": "Joint-combine_fun_tax_{contractid}",
+        "memThread": "20&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1195.889302634619,
+        "y": 1887.584335583765
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_18",
+      "type": "custom",
+      "position": {
+        "x": -1761.6718657768422,
+        "y": 2373.436235980057
+      },
+      "data": {
+        "taskId": "task18",
+        "taskName": "Joint-barplot_{contractid}",
+        "memThread": "5&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -1761.6718657768422,
+        "y": 2373.436235980057
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_19",
+      "type": "custom",
+      "position": {
+        "x": -956.2883732444845,
+        "y": 2381.0837732048567
+      },
+      "data": {
+        "taskId": "task19",
+        "taskName": "Joint-sankey_{contractid}",
+        "memThread": "5&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": -956.2883732444845,
+        "y": 2381.0837732048567
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_20",
+      "type": "custom",
+      "position": {
+        "x": 1936.198229474991,
+        "y": 2636.0606306023456
+      },
+      "data": {
+        "taskId": "task20",
+        "taskName": "Beta-CSDT-mrpp_{contractid}",
+        "memThread": "5&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1936.198229474991,
+        "y": 2636.0606306023456
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_21",
+      "type": "custom",
+      "position": {
+        "x": 1349.8819126316744,
+        "y": 2638.9780826343867
+      },
+      "data": {
+        "taskId": "task21",
+        "taskName": "Beta-CSDT-adonis_{contractid}",
+        "memThread": "5&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1349.8819126316744,
+        "y": 2638.9780826343867
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_22",
+      "type": "custom",
+      "position": {
+        "x": 1639.6379140550089,
+        "y": 2805.226473867116
+      },
+      "data": {
+        "taskId": "task22",
+        "taskName": "Beta-CSDT-anosim_{contractid}",
+        "memThread": "5&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 1639.6379140550089,
+        "y": 2805.226473867116
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_23",
+      "type": "custom",
+      "position": {
+        "x": 2257.7955633142587,
+        "y": 2666.349512216636
+      },
+      "data": {
+        "taskId": "task23",
+        "taskName": "Beta-CSDT-amova_{contractid}",
+        "memThread": "5&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 2257.7955633142587,
+        "y": 2666.349512216636
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_24",
+      "type": "custom",
+      "position": {
+        "x": 3334.912724854661,
+        "y": 1879.8010881402565
+      },
+      "data": {
+        "taskId": "task24",
+        "taskName": "Statistics-KW-{analysis-type}_{contractid}",
+        "memThread": "10&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3334.912724854661,
+        "y": 1879.8010881402565
+      },
+      "dragging": false
+    },
+    {
+      "id": "node_25",
+      "type": "custom",
+      "position": {
+        "x": 3849.9509961412487,
+        "y": 1879.4623841329667
+      },
+      "data": {
+        "taskId": "task25",
+        "taskName": "Statistics-wilcox-{analysis-type}_{contractid}",
+        "memThread": "10&1",
+        "params": ""
+      },
+      "width": 474,
+      "height": 368,
+      "selected": false,
+      "positionAbsolute": {
+        "x": 3849.9509961412487,
+        "y": 1879.4623841329667
+      },
+      "dragging": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "node_0",
+      "sourceHandle": null,
+      "target": "node_1",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_0-node_1",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_1",
+      "sourceHandle": null,
+      "target": "node_2",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_1-node_2",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_2",
+      "sourceHandle": null,
+      "target": "node_3",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_2-node_3",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_3",
+      "sourceHandle": null,
+      "target": "node_4",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_3-node_4",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_3",
+      "sourceHandle": null,
+      "target": "node_5",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_3-node_5",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_3",
+      "sourceHandle": null,
+      "target": "node_6",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_3-node_6",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_3",
+      "sourceHandle": null,
+      "target": "node_7",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_3-node_7",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_3",
+      "sourceHandle": null,
+      "target": "node_8",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_3-node_8",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_8",
+      "sourceHandle": null,
+      "target": "node_9",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_8-node_9",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_3",
+      "sourceHandle": null,
+      "target": "node_10",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_3-node_10",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_10",
+      "sourceHandle": null,
+      "target": "node_12",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_10-node_12",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_10",
+      "sourceHandle": null,
+      "target": "node_11",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_10-node_11",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_10",
+      "sourceHandle": null,
+      "target": "node_13",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_10-node_13",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_3",
+      "sourceHandle": null,
+      "target": "node_14",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_3-node_14",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_3",
+      "sourceHandle": null,
+      "target": "node_16",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_3-node_16",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_4",
+      "sourceHandle": null,
+      "target": "node_18",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_4-node_18",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_15",
+      "sourceHandle": null,
+      "target": "node_18",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_15-node_18",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_16",
+      "sourceHandle": null,
+      "target": "node_18",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_16-node_18",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_4",
+      "sourceHandle": null,
+      "target": "node_19",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_4-node_19",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_16",
+      "sourceHandle": null,
+      "target": "node_19",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_16-node_19",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_10",
+      "sourceHandle": null,
+      "target": "node_21",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_10-node_21",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_10",
+      "sourceHandle": null,
+      "target": "node_22",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_10-node_22",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_10",
+      "sourceHandle": null,
+      "target": "node_20",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_10-node_20",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_10",
+      "sourceHandle": null,
+      "target": "node_23",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "style": {
+        "stroke": "#0077cc",
+        "strokeWidth": 2
+      },
+      "id": "reactflow__edge-node_10-node_23",
+      "interactionWidth": 20
+    },
+    {
+      "source": "node_3",
+      "sourceHandle": null,
+      "target": "node_24",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "interactionWidth": 20,
+      "id": "reactflow__edge-node_3-node_24"
+    },
+    {
+      "source": "node_3",
+      "sourceHandle": null,
+      "target": "node_25",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "interactionWidth": 20,
+      "id": "reactflow__edge-node_3-node_25"
+    },
+    {
+      "source": "node_15",
+      "sourceHandle": null,
+      "target": "node_19",
+      "targetHandle": null,
+      "type": "default",
+      "markerEnd": {
+        "type": "arrowclosed"
+      },
+      "interactionWidth": 20,
+      "id": "reactflow__edge-node_15-node_19"
+    }
+  ]
+}
